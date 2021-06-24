@@ -14,8 +14,19 @@ export default {
             title:'Slug',
             type:'slug', 
             options: {
-                source:'name'
+                source:'name',
+                maxLength: 100
             }
+        },
+        {
+            name:'id',
+            title:'ID',
+            type: 'number'
+        },
+        {
+            name:'image',
+            title:'Image',
+            type:'image'
         }
     ]
 }
